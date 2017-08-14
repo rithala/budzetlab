@@ -12,7 +12,7 @@
 
 ## 1. Wstęp <a name="wstep"></a>
 
-        Projekt BudżetLab poświęcony jest przygotowaniu narzędzia umożliwiającego eksplorację oraz wizualizację budżetu miasta Katowice. Projekt realizowany jest w ramach Shared Cities przez Miasto Ogrodów i Medialab Katowice.
+Projekt BudżetLab poświęcony jest przygotowaniu narzędzia umożliwiającego eksplorację oraz wizualizację budżetu miasta Katowice. Projekt realizowany jest w ramach Shared Cities przez Miasto Ogrodów i Medialab Katowice.
 ## 2. Aktualności <a name="aktualnosci"></a>
 
 ### [2017-08-14] - Stworzenie repozytorium
