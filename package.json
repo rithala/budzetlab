@@ -6,6 +6,7 @@
   "scripts": {
     "start": "npm build && node index.js",
     "dev-start": "node index.js",
+    "prod-start": "set NODE_ENV=production&& node index.js",
     "build": "webpack --config ./webpack.deployment.config.js --progress --colors",
     "build-dev": "webpack --progress --colors"
   },

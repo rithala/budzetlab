@@ -1,16 +1,17 @@
 const express = require('express');
 const port = (process.env.PORT || 3000);
-const isProduction = process.env.NODE_ENV === 'production';
-
+const isProduction = process.env.NODE_ENV == 'production';
 const app = express();
 
-app.use(express.static('./public/dst'));
+app.use(express.static('./client/dst'));
 
 if (!isProduction) {
     addDevServer();
 }
 
-app.listen(port, () => console.log(`server listening on http://localhost:${port}`));
+app.listen(port, () => {
+    console.log(`server listening on http://localhost:${port}`)
+});
 
 
 function addDevServer() {
