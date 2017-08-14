@@ -75,5 +75,5 @@ yarn add [nazwa-pakietu]
 ```
 Przykład:
 ```shell
-yarn add react
+yarn add d3
 ```
